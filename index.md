@@ -1,5 +1,6 @@
 ---
 title: My markdown index!
+layout: default
 ---
 
 This is my index
