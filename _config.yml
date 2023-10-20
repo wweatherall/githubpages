@@ -12,7 +12,7 @@ defaults:
     values:
       layout: "author"
   - scope:
-      path: "{{ site.baseurl}}"
+      path: "{{ site.baseurl }}"
       type: "posts"
     values:
       layout: "post"
