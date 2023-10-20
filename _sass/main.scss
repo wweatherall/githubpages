@@ -1,3 +1,236 @@
 .current {
 color: green;
 }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana;
+
+}
+
+html {
+  background-color: #232323;
+  max-width: 1300px;
+
+  /* REMOVE IF NOTHING GOES WRONG: margin: 0 auto; */
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+h3 {
+  padding: 3;
+}
+
+h3:hover {
+  background-color: #ddd;
+}
+
+/* THE LOGO AREA AT THE TOP */
+.banner {
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.leftMenu {
+  float: left;
+  width: 25%;
+  text-align: right;
+  color: #FC7223;
+  line-height: 1.8;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.leftMenuHeading a {
+  color: #FC7223;
+
+  /* TO MAKE THE BACKGROUND HIGHLIGHT COVER ENOUGH AREA */
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 3px;
+}
+
+.leftMenuDropdown {
+  display: none;
+  line-height: 1.2;
+  font-size: 25px;
+}
+
+.leftMenuCurrentPage {
+  display:block;
+  line-height: 1.2;
+  font-size: 25px;
+  color: white;
+}
+
+.leftMenuCurrentSport a {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 3px;
+  color: white;
+}
+
+.whiteBackground {
+  background-color: #ddd;
+  color: black !important;
+}
+
+.leftMenuDropdown a {
+  color: white;
+}
+
+.leftMenuHeading:hover > .leftMenuDropdown, .active{
+  display: block;
+}
+
+
+.leftMenuList li:hover > a {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+.content {
+  color: #f1f1f1;
+  float: left;
+  width: 50%;
+  line-height: 1.4;
+  padding: 23px;
+}
+
+.content p {
+  margin-bottom: 1em;
+  text-align: justify;
+}
+
+.content h2 {
+  margin-bottom: .5em;
+}
+
+.contentLeft {
+  width: calc((100% - 260px));
+  min-width: 100px;
+  max-width: 100%;
+  float: left;
+}
+
+.contentLeft p {
+    text-align: left;
+    font-size: 11pt;
+}
+
+.contentRight {
+  width: 250px;
+  float: right;
+  padding-left: auto;
+}
+
+.contentRight h3:hover{
+  background-color: inherit;
+
+}
+
+.rightMenu {
+  background-color: #FC7223;
+  float: left;
+  width: 25%;
+  padding: 10px 15px;
+  font-size: 20px;
+  margin-top: 7px;
+
+}
+
+.rightMenu a {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+}
+
+.rightMenuHeading {
+  padding: 4px;
+}
+
+
+input[type='checkbox'] { display: none; }
+
+.wrap-collabsible { margin: 1.2rem 0; }
+
+.lbl-toggle { display: block; font-weight: bold; font-family: sans-serif; font-weight: bold; font-size: 18pt; text-transform: uppercase; text-align: center; padding: 1rem; color: black; background: #FC7223; cursor: pointer; border-radius: 0px; transition: all 0.25s ease-out; }
+
+.lbl-toggle:hover { color: #FFF; }
+
+.lbl-toggle::before { content: ' '; display: inline-block; border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 5px solid currentColor; vertical-align: middle; margin-right: .7rem; transform: translateY(-2px); transition: transform .2s ease-out; }
+
+.toggle:checked+.lbl-toggle::before { transform: rotate(90deg) translateX(-3px); } .collapsible-content { max-height: 0px; overflow: hidden; transition: max-height .25s ease-in-out; }
+
+.toggle:checked + .lbl-toggle + .collapsible-content { max-height: 9000px; }
+
+.toggle:checked+.lbl-toggle { border-bottom-right-radius: 0; border-bottom-left-radius: 0; } .collapsible-content
+
+.content-inner {color: white; font-size: 10pt; background: #444444; border-bottom: 1px solid #000000; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; padding: .5rem 1rem; }
+
+.content-inner ul {list-style: square; margin-left: 10px;}
+
+.content-inner li {margin-bottom: 10px;}
+
+.content-inner em {font-size: 12pt;}
+
+.collapsible-content p { margin-bottom: 0; }
+
+.contentInnerButton {
+  margin: auto;
+  width: 80%;
+  background-color: #FC7223;
+  text-align: center;
+  color: black;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 13pt;
+}
+
+.contentInnerButton:hover {
+  background-color: #ddd;
+}
+
+
+@media only screen and (max-width:800px) {
+/* For tablets: */
+.leftMenu, .content, .rightMenu {
+  width: 100%;
+}
+
+.leftMenu, .rightMenu {
+  text-align: center;
+}
+
+}
+
+@media only screen and (max-width:500px) {
+/* For tablets: */
+.leftMenu, .content, .rightMenu, .contentLeft, .contentRight {
+  width: 100%;
+}
+
+.leftMenu, .rightMenu {
+  text-align: center;
+}
+
+}
+
+/* MAKES THE COLOR CHANGE AFFECT THE PARENT AS WELL
+.leftMenu li:hover > a {
+  background-color: #ddd;
+  color: black;
+}*/
