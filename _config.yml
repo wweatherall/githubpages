@@ -4,6 +4,8 @@ baseurl: "/githubpages"
 collections:
   authors:
     output: true
+  soccer:
+    output: true
 
 defaults:
   - scope:
@@ -20,6 +22,11 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 
 plugins:
   - jekyll-feed

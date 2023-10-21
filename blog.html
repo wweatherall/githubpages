@@ -11,4 +11,10 @@ title: Blog
         {{ post.excerpt }}
     </li>
     {% endfor %}
+    {% for post in site.soccer %}
+    <li>
+        <h2><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
+        {{ post.content }}
+    </li>
+    {% endfor %}
 </ul>
