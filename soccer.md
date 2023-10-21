@@ -4,6 +4,8 @@ layout: default
 
 This is a test
 
+{% include ages.html %}
+
 {% for agegroup in site.soccer %}
 {{ agegroup.title }}
 U{{-agegroup.maxage}} is really fun
