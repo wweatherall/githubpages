@@ -21,7 +21,7 @@ a {
   font-weight: bold;
 }
 
-ul {
+.leftMenu ul {
   list-style: none;
 }
 
@@ -42,7 +42,7 @@ h3 {
 
 .leftMenu {
   float: left;
-  width: 30%;
+  width: 25%;
   text-align: right;
   color: #FC7223;
   line-height: 1.8;
@@ -56,10 +56,6 @@ h3 {
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 3px;
-}
-
-.leftMenuHeading li:hover {
-  background-color: #ddd;
 }
 
 .leftMenuDropdown {
@@ -80,11 +76,6 @@ h3 {
   padding-right: 5px;
   padding-bottom: 3px;
   color: white;
-}
-
-.whiteBackground {
-  background-color: #ddd;
-  color: black !important;
 }
 
 .leftMenuDropdown a {
@@ -158,6 +149,10 @@ h3 {
   padding: 4px;
 }
 
+.rightMenuHeading:hover {
+  background-color: #ddd;
+}
+
 input[type=checkbox] {
   display: none;
 }
@@ -224,7 +219,11 @@ input[type=checkbox] {
   border-bottom: 1px solid #000000;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-  padding: 0.5rem 1rem;
+  padding: 1.5rem;
+}
+
+.content-inner h3 {
+  font-size: 14pt;
 }
 
 .content-inner ul {
@@ -233,7 +232,7 @@ input[type=checkbox] {
 }
 
 .content-inner li {
-  margin-bottom: 10px;
+  margin: 10px;
 }
 
 .content-inner em {
@@ -253,6 +252,7 @@ input[type=checkbox] {
   text-transform: capitalize;
   font-weight: bold;
   font-size: 13pt;
+  margin-top: 1.25em;
 }
 
 .contentInnerButton:hover {

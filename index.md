@@ -1,16 +1,14 @@
 ---
-title: My markdown index!
+title: Oilfields Sports Association
 layout: default
 ---
 
-This is my index
+Oilfields Sports Association is located in the Foothills in Alberta, Canada. Through the Association, kids from the local communities of Turner Valley, Black Diamond, Millarville, Longview and Okotoks participate in soccer, baseball, and pond hockey. The Association & its volunteers focus on participation and encouragement over winning, and are committed to helping the players develop their skills and teamwork through games against other teams.
 
-U-13 is for players born in
-{{ "now" | date: "%Y" | minus: 13 }} and {{ "now" | date: "%Y" | minus: 12 }}
+# Mission Statement
 
-*U5 is for players born in {{ "now" | date: "%Y" | minus: 5 }} and {{ "now" | date: "%Y" | minus: 4 }}*
+To provide fun, affordable recreation programs for youth within our communities and surrounding areas.
 
-- [ ] This is a test of this part
 
 <script>document.write(new Date().getFullYear()-13);</script>
 
@@ -18,8 +16,3 @@ and <script>document.write(new Date().getFullYear()-12);</script>.
 <p><script>document.write( new Date().getFullYear() );</script>
     <script type="text/javascript">document.write( new Date().getFullYear() );</script></p>
 
-I hope this works.
-
-Does this make a dif
-
-$$ \pi r^2 $$
