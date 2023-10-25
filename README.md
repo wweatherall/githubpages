@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # How to use this website
 
 First, you need to understand what this website is exactly. It is designed for minimal maintanance and to make changes as low effort as possible while making information easily accessible to the reader, in a consistent format.
