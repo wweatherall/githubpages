@@ -4,6 +4,7 @@ First, you need to understand what this website is exactly. It is designed for m
 
 To do that, most of it is generated automatically, using these things called Jekyll and Liquid. Jekyll is what converts all the pages into the html your browser needs and Liquid is the way that you automate repetetive tasks. You will see it with the curly braces scattered through the files of this website. Most of it can be ignored forever, with the only changes being a tweak to a data file here or there or some editing of a .md file like this one. (.md files also called markdown files are just plain text with a few extras which make it useful for formatting text.)
 
+There are also a couple parts with JavaScript (they have a <script> tag on them to tell you where they are), which are just to provide age information to parents without us having to update it every year.
 
 ## Changing information about a sport
 
