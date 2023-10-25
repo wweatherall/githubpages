@@ -8,11 +8,3 @@ Oilfields Sports Association is located in the Foothills in Alberta, Canada. Thr
 # Mission Statement
 
 To provide fun, affordable recreation programs for youth within our communities and surrounding areas.
-
-
-<script>document.write(new Date().getFullYear()-13);</script>
-
-and <script>document.write(new Date().getFullYear()-12);</script>.
-<p><script>document.write( new Date().getFullYear() );</script>
-    <script type="text/javascript">document.write( new Date().getFullYear() );</script></p>
-

@@ -24,11 +24,16 @@ layout: default
 
 {{ agegroup.content }}
 
-<a href="{{ site.data.navigation.soccer.fee }}"><div class="contentInnerButton">
+<a href="
+{% for item in site.data.navigation %}
+{% if item.name == "Soccer" %}
+{{item.register}}
+{% endif %}
+{% endfor %}
+"><div class="contentInnerButton">
 <br>Register - Fee {{agegroup.fee}}<br><br>
 </div></a>
 
 </div></div></div>
-
 
 {% endfor %}
