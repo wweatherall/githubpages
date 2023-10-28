@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Soccer Schedule
 ---
 
 <div class="contentLeft">

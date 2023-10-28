@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Baseball Schedule
 ---
 {% for agegroup in site.baseball %}
 

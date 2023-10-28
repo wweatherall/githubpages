@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Hockey Schedule
 ---
 
 This years Oilfields Phantoms practice schedule will be:
