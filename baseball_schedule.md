@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-
-<div class="contentLeft">
-
 {% for agegroup in site.baseball %}
 
 <h3> U{{- agegroup.maxage }} </h3>
@@ -18,5 +15,3 @@ layout: default
 {% endif %}
 
 {% endfor %}
-
-</div>
