@@ -107,6 +107,7 @@ h3 {
 .content p {
   margin-bottom: 1em;
   text-align: justify;
+  line-height: 18pt;
 }
 
 .content h2 {
