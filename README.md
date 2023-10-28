@@ -39,3 +39,7 @@ You can find that file in the _sass folder called main.scss. Remember, the value
 In assets folder, there is the images folder. In there are all the different versions of our logo used to put it in all the places one might want it. Just replace them with files of the same name and same dimensions of the new logo and that will be easiest.
 
 If you want a new logo name, there are a couple places you'll need to change to reflect the new one in default.html around line 21 and then
+
+## Markdown files
+
+The top of the markdown files have three dashes (---) followed by a line that says layout: default and then three more dashes. These tell jekyll to turn it into html.

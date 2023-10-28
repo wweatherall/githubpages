@@ -1,18 +1,23 @@
-.current {
-color: green;
+:root {
+    --backgroundColour: #232323;
+    --textColour: #ddd;
+    --accentColour: #FC7223;
+    --highlightColour: #ddd;
+    --dropdownBackgroundColour: #444444;
 }
+
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: Verdana;
-    color: #ddd;
+    color: var(--textColour);
 
 }
 
 html {
-  background-color: #232323;
+  background-color: var(--backgroundColour);
   max-width: 1300px;
 
   /* REMOVE IF NOTHING GOES WRONG: margin: 0 auto; */
@@ -32,7 +37,7 @@ h3 {
 }
 
 /*h3:hover {
-  background-color: #ddd;
+  background-color: var(--highlightColour);
 }*/
 
 /* THE LOGO AREA AT THE TOP */
@@ -41,20 +46,21 @@ h3 {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1em;
 }
 
 .leftMenu {
   float: left;
   width: 25%;
   text-align: right;
-  color: #FC7223;
+  color: var(--accentColour);
   line-height: 1.8;
   font-weight: bold;
   font-size: 30px;
 }
 
 .leftMenuHeading a {
-  color: #FC7223;
+  color: var(--accentColour);
 
   /* TO MAKE THE BACKGROUND HIGHLIGHT COVER ENOUGH AREA */
   padding-left: 5px;
@@ -72,19 +78,19 @@ h3 {
   display:block;
   line-height: 1.2;
   font-size: 25px;
-  color: white;
+  color: var(--highlightColour);
 }
 
 .leftMenuCurrentSport a {
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 3px;
-  color: white;
+  color: var(--highlightColour);
 }
 
 
 .leftMenuDropdown a {
-  color: white;
+  color: var(--highlightColour);
 }
 
 .leftMenuHeading:hover > .leftMenuDropdown, .active{
@@ -93,18 +99,18 @@ h3 {
 
 
 .leftMenuList li:hover > a {
-  background-color: #ddd;
-  color: black;
+  background-color: var(--highlightColour);
+  color: var(--backgroundColour);
 }
 
 
 
 .content {
-  color: #f1f1f1;
+  color: var(--textColour);
   float: left;
   width: 50%;
   line-height: 1.4;
-  padding: 23px;
+  padding: 0.4rem 23px;
 }
 
 .content p {
@@ -114,6 +120,14 @@ h3 {
 
 .content h2 {
   margin-bottom: .5em;
+}
+
+.content p~h2 {
+    margin-top: 1.5em;
+}
+
+.content:first-child {
+    margin-top: 0em;
 }
 
 .contentLeft {
@@ -140,7 +154,7 @@ h3 {
 }
 
 .rightMenu {
-  background-color: #FC7223;
+  background-color: var(--accentColour);
   float: left;
   width: 25%;
   padding: 10px 15px;
@@ -160,7 +174,7 @@ h3 {
 }
 
 .rightMenuHeading:hover {
-	background-color: #ddd;
+	background-color: var(--highlightColour);
 }
 
 
@@ -168,9 +182,9 @@ input[type='checkbox'] { display: none; }
 
 .wrap-collabsible { margin: 1.2rem 0; }
 
-.lbl-toggle { display: block; font-weight: bold; font-family: sans-serif; font-weight: bold; font-size: 18pt; text-transform: uppercase; text-align: center; padding: 1rem; color: black; background: #FC7223; cursor: pointer; border-radius: 0px; transition: all 0.25s ease-out; }
+.lbl-toggle { display: block; font-weight: bold; font-family: sans-serif; font-weight: bold; font-size: 18pt; text-align: center; padding: 1rem; color: black; background: var(--accentColour); cursor: pointer; border-radius: 0px; transition: all 0.25s ease-out; }
 
-.lbl-toggle:hover { color: #FFF; }
+.lbl-toggle:hover { color: var(--highlightColour); }
 
 .lbl-toggle::before { content: ' '; display: inline-block; border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 5px solid currentColor; vertical-align: middle; margin-right: .7rem; transform: translateY(-2px); transition: transform .2s ease-out; }
 
@@ -180,7 +194,7 @@ input[type='checkbox'] { display: none; }
 
 .toggle:checked+.lbl-toggle { border-bottom-right-radius: 0; border-bottom-left-radius: 0; } .collapsible-content
 
-.content-inner {color: white; font-size: 10pt; background: #444444; border-bottom: 1px solid #000000; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; padding: 1.5rem; }
+.content-inner {color: white; font-size: 10pt; background: var(--dropdownBackgroundColour); border-bottom: 1px solid #000000; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; padding: 1.5rem; }
 
 .content-inner h3 {font-size: 14pt;}
 
@@ -195,7 +209,7 @@ input[type='checkbox'] { display: none; }
 .contentInnerButton {
   margin: auto;
   width: 80%;
-  background-color: #FC7223;
+  background-color: var(--accentColour);
   text-align: center;
   color: black;
   text-transform: capitalize;
@@ -205,7 +219,7 @@ input[type='checkbox'] { display: none; }
 }
 
 .contentInnerButton:hover {
-  background-color: #ddd;
+  background-color: var(--highlightColour);
 }
 
 
@@ -235,6 +249,6 @@ input[type='checkbox'] { display: none; }
 
 /* MAKES THE COLOR CHANGE AFFECT THE PARENT AS WELL
 .leftMenu li:hover > a {
-  background-color: #ddd;
-  color: black;
+  background-color: var(--highlightColour);
+  color: var(--backgroundColour);
 }*/

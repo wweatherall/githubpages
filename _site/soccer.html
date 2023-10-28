@@ -11,16 +11,12 @@
 
 <body>
 
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v18.0"
-        nonce="gzAM2PPz"></script>
-
-
     <div class="banner">
-        <a href="index.html">
+        <a href="/index.html">
             <picture>
-                <source srcset="assets/images/phantoms600.png" media="(min-width: 400px)"><img
-                    src="assets/images/phantoms@0.25x.png" alt="phantoms logo" width="600" class="banner">
+                <source srcset="/assets/images/phantoms600.png" media="(min-width: 400px)"><img
+                    src="/assets/images/phantoms@0.25x.png" alt="phantoms logo" width="600"
+                    class="banner">
             </picture>
         </a>
     </div>
@@ -29,32 +25,31 @@
 
     <ul class="leftMenuList">
         
-        <li class="leftMenuHeading"><a href="/hockey.html" >Hockey</a>
-        	<ul class="leftMenuDropdown">
-        		<li><a href="/hockey.html">About</a></li>
-        		<li><a href="/hockey/schedule.html">Schedule</a></li>
-        		<li><a href="https://app.teamlinkt.com/register/find/oilfieldsportsassociation2">Register</a></li>
-        		<li><a href="mailto: oilfieldsphantoms@gmail.com">Contact</a></li>
-        	</ul>        
+        <li class="leftMenuHeading"><a href="/hockey.html" >Hockey 🏒 </a>
+            <ul class="leftMenuDropdown">
+                <li><a href="/hockey.html">About</a></li>
+                <li><a href="/hockey_schedule.html">Schedule</a></li>
+                <li><a href="https://app.teamlinkt.com/register/find/oilfieldsportsassociation2">Register</a></li>
+                <li><a href="oilfieldsphantoms@gmail.com">Contact</a></li>
+            </ul>
         </li>
         
-        <li class="leftMenuHeading"><a href="/soccer.html" class="current"
-                >Soccer</a>
-        	<ul class="leftMenuDropdown">
-        		<li><a href="/soccer.html">About</a></li>
-        		<li><a href="/soccer/schedule.html">Schedule</a></li>
-        		<li><a href="https://app.teamlinkt.com/register/find/oilfieldsportsassociation2">Register</a></li>
-        		<li><a href="mailto: oilfieldsoccer@gmail.com">Contact</a></li>
-        	</ul>        
+        <li class="leftMenuHeading"><a href="/soccer.html" class="current" >Soccer ⚽️ </a>
+            <ul class="leftMenuDropdown">
+                <li><a href="/soccer.html">About</a></li>
+                <li><a href="/soccer_schedule.html">Schedule</a></li>
+                <li><a href="https://app.teamlinkt.com/register/find/oilfieldsportsassociation2">Register</a></li>
+                <li><a href="oilfieldsoccer@gmail.com">Contact</a></li>
+            </ul>
         </li>
         
-        <li class="leftMenuHeading"><a href="/baseball.html" >Baseball</a>
-        	<ul class="leftMenuDropdown">
-        		<li><a href="/baseball.html">About</a></li>
-        		<li><a href="/baseball/schedule.html">Schedule</a></li>
-        		<li><a href="https://app.teamlinkt.com/register/find/oilfieldsportsassociation2">Register</a></li>
-        		<li><a href="mailto: oilfieldbaseball@gmail.com">Contact</a></li>
-        	</ul>        
+        <li class="leftMenuHeading"><a href="/baseball.html" >Baseball ⚾️ </a>
+            <ul class="leftMenuDropdown">
+                <li><a href="/baseball.html">About</a></li>
+                <li><a href="/baseball_schedule.html">Schedule</a></li>
+                <li><a href="https://app.teamlinkt.com/register/find/oilfieldsportsassociation2">Register</a></li>
+                <li><a href="oilfieldbaseball@gmail.com">Contact</a></li>
+            </ul>
         </li>
         
     </ul>
@@ -80,19 +75,22 @@
 
 
 <!---This is the automatic age bracket function. It pulls the number from the document for each age from the top of it called maxage: 8 (or whatever age). If you don't edit the parts in the script tags or the  it won't break the script--->
-<em>U5 is for players born in
- 
+<em>For players born in
+    
+    
+    and between
+    
+    <script>document.write(new Date().getFullYear() -5);</script> and
+    <script>document.write(new Date().getFullYear() -3);</script>.
+</em>
 
-and between 
-
-<script>document.write(new Date().getFullYear()-5);</script> and <script>document.write(new Date().getFullYear()-3);</script>.</em>
 
 
 <ul>
   <li>The season is late April/early May (weather pending) to third week of June.</li>
-  <li>Children born in 2019/2018 are eligible and parent attendance is required at all practices/games.</li>
-  <li>Practice/games are played in Black Diamond by the Water Tower.</li>
-  <li>Two practice/games per week: Wednesday 6:00pm-6:45pm &amp; Saturday 11:45am – 12:30pm</li>
+  <li>Parent attendance is required at all practices/games.</li>
+  <li>Practice/games are played in Maplewood Park, Black Diamond.</li>
+  <li>Two practice/games per week: Wednesday 6:00pm-6:45pm &amp; Saturday 11:45am – 12:30pm.</li>
   <li>Snack/Water break (each child brings their own) between skills and mini game each session.</li>
   <li>Small sided soccer, 3-4 players per side (3v3 or 4v4). No goal keepers. Size 3 ball.</li>
   <li>Registration fee includes a team jersey and team photo</li>
@@ -148,18 +146,19 @@ https://app.teamlinkt.com/register/find/oilfieldsportsassociation2
 
 
 <!---This is the automatic age bracket function. It pulls the number from the document for each age from the top of it called maxage: 8 (or whatever age). If you don't edit the parts in the script tags or the  it won't break the script--->
-<em>U7 is for players born in
- 
+<em>For players born in
+    
+    
+    <script>document.write(new Date().getFullYear() -7);</script> and
+    <script>document.write(new Date().getFullYear() -6);</script>.
+</em>
 
-<script>document.write(new Date().getFullYear()-7);</script> and <script>document.write(new Date().getFullYear()-6);</script>.</em>
 
 
-<p>U7 Mixed League</p>
 <ul>
   <li>The season is late April (weather pending) to third week of June.</li>
-  <li>Children born in 2016/2017 are eligible.</li>
-  <li>Practice/games are played in Black Diamond by the Water Tower.</li>
-  <li>Two practice/games per week: Tuesday 6:00pm-7:00pm &amp; Saturday 10:30am-11:30am.</li>
+  <li>Practice/games are played in Maplewood Park, Black Diamond.</li>
+  <li>Two practice/games per week: Tuesday 6:00pm-7:00pm and Saturday 10:30am-11:30am.</li>
   <li>Snack/Water break (each child brings their own) between skills and mini game each session.</li>
   <li>Small sided soccer, 4-5 players per side (4v4 or 5v5). No goal keepers. Size 3 ball.</li>
   <li>Registration fee includes a team jersey and team photo </li>
@@ -216,18 +215,19 @@ https://app.teamlinkt.com/register/find/oilfieldsportsassociation2
 
 
 <!---This is the automatic age bracket function. It pulls the number from the document for each age from the top of it called maxage: 8 (or whatever age). If you don't edit the parts in the script tags or the  it won't break the script--->
-<em>U9 is for players born in
- 
+<em>For players born in
+    
+    
+    <script>document.write(new Date().getFullYear() -9);</script> and
+    <script>document.write(new Date().getFullYear() -8);</script>.
+</em>
 
-<script>document.write(new Date().getFullYear()-9);</script> and <script>document.write(new Date().getFullYear()-8);</script>.</em>
 
 
-<p>U9 Mixed League</p>
 <ul>
   <li>The season is the end of April to the third week of June. Practices may commence earlier</li>
-  <li>Children born 2014/2015 are eligible.</li>
   <li>TRAVEL IS REQUIRED. (Including Vulcan, Nanton, Red Deer Lake, High River, Millarville, &amp; Okotoks) Home games/practices are played at C. Ian McLaren in Black Diamond.</li>
-  <li>1 game per week and 1 optional practice at the discretion of coach/team. Tuesday evenings each week (excluding optional practice &amp; any rescheduling). Games typically are Tuesday. Time depends on the other teams and what time they schedule your division in. </li>
+  <li>Tuesday Evenings and Saturday 11:45am – 12:45pm. Games typically are Tuesday. Time depends on the other teams and what time they schedule your division in. </li>
   <li>Game Kick-off generally at 6:30pm (refer to team schedule). Game length: 2 x 25-minute halves.</li>
   <li>Seven players per side (7v7) with a designated keeper. Size 4 ball.</li>
   <li>Registration fee includes team photo</li>
@@ -288,18 +288,19 @@ https://app.teamlinkt.com/register/find/oilfieldsportsassociation2
 
 
 <!---This is the automatic age bracket function. It pulls the number from the document for each age from the top of it called maxage: 8 (or whatever age). If you don't edit the parts in the script tags or the  it won't break the script--->
-<em>U11 is for players born in
- 
+<em>For players born in
+    
+    
+    <script>document.write(new Date().getFullYear() -11);</script> and
+    <script>document.write(new Date().getFullYear() -10);</script>.
+</em>
 
-<script>document.write(new Date().getFullYear()-11);</script> and <script>document.write(new Date().getFullYear()-10);</script>.</em>
 
 
-<p>U11 Mixed League</p>
 <ul>
   <li>The season is end of April to third week of June. Practices may commence earlier.</li>
-  <li>Children born 2012/2013 are eligible.</li>
-  <li>TRAVEL IS REQUIRED. (Including Vulcan, Nanton, Red Deer Lake, High River, Millarville &amp; Okotoks) Home games/practices are played at CIM School in Black Diamond</li>
-  <li>1 game per week and 1 optional practice at the discretion of coach/team. Wednesday evenings each week (excluding optional practice &amp; any rescheduling).</li>
+  <li>TRAVEL IS REQUIRED. (Including Vulcan, Nanton, Red Deer Lake, High River, Millarville &amp; Okotoks) Home games/practices are played at C. Ian McLaren in Black Diamond</li>
+  <li>Wednesday Evenings and Saturday 10:30am-11:30am.</li>
   <li>Game kick-off generally at 6:30pm (refer to team schedule). Game length: 2 x 30-minute halves.</li>
   <li>Seven players per side (7v7) with a designated keeper. Size 4 ball.</li>
   <li>Registration fee includes team photo.</li>
@@ -357,22 +358,23 @@ https://app.teamlinkt.com/register/find/oilfieldsportsassociation2
 
 
 <!---This is the automatic age bracket function. It pulls the number from the document for each age from the top of it called maxage: 8 (or whatever age). If you don't edit the parts in the script tags or the  it won't break the script--->
-<em>U13 is for players born in
- 
+<em>For players born in
+    
+    
+    <script>document.write(new Date().getFullYear() -13);</script> and
+    <script>document.write(new Date().getFullYear() -12);</script>.
+</em>
 
-<script>document.write(new Date().getFullYear()-13);</script> and <script>document.write(new Date().getFullYear()-12);</script>.</em>
 
 
-<p>U13 Mixed League</p>
 <ul>
   <li>The season is end of April to the third week of June. Practices may commence earlier.</li>
-  <li>Children born 2010/2011 are eligible.</li>
-  <li>TRAVEL IS REQUIRED. (Including Vulcan, Nanton, High River, Red Deer Lake, &amp; Millarville) Home games/practices are played in Black Diamond at Oilfields High School.</li>
-  <li>1 game per week and 1 optional practice at the discretion of coach/team. Thursday evenings each week (excluding optional practice &amp; any rescheduling)</li>
+  <li>TRAVEL IS REQUIRED. (Including Vulcan, Nanton, High River, Red Deer Lake, &amp; Millarville) Home games/practices are played at Turner Valley Field.</li>
+  <li>Thursdays Evenings and Saturday 9:15am-10:15am (game times dependent upon league).</li>
   <li>Game kick-off generally at 7:00pm (refer to team schedule). Game length: 2 x 40 minute halves.</li>
   <li>Eight players per side (8v8) with a designated keeper. Size 5 ball.</li>
   <li>Registration fee includes team photo.</li>
-  <li>Shin pads and appropriate soccer shoes(cleats) are required.</li>
+  <li>Shin pads and appropriate closed toed shoes are required.</li>
   <li>Opportunity to take part in Black Diamond Parade.</li>
   <li>Part of the High Country League and follows The High Country League Code of Conduct
  </li>
@@ -426,19 +428,20 @@ https://app.teamlinkt.com/register/find/oilfieldsportsassociation2
 
 
 <!---This is the automatic age bracket function. It pulls the number from the document for each age from the top of it called maxage: 8 (or whatever age). If you don't edit the parts in the script tags or the  it won't break the script--->
-<em>U17 is for players born in
- 
+<em>For players born in
+    
+    
+    and between
+    
+    <script>document.write(new Date().getFullYear() -17);</script> and
+    <script>document.write(new Date().getFullYear() -14);</script>.
+</em>
 
-and between 
-
-<script>document.write(new Date().getFullYear()-17);</script> and <script>document.write(new Date().getFullYear()-14);</script>.</em>
 
 
-<p>U15/U17 Mixed League</p>
 <ul>
   <li>The season is end of April to the third week of June. Practices may commence earlier.</li>
-  <li>Children born 2006-2009 are eligible.</li>
-  <li>TRAVEL IS REQUIRED. (Including Vulcan, Nanton, High River, Red Deer Lake, &amp; Millarville) Home games/practices are played in Black Diamond at Oilfields High School.</li>
+  <li>TRAVEL IS REQUIRED. (Including Vulcan, Nanton, High River, Red Deer Lake, &amp; Millarville) Home games/practices are played at Turner Valley Field.</li>
   <li>1 game per week and 1 optional practice at the discretion of coach/team. Monday or Friday evenings each week (excluding optional practice &amp; any rescheduling).</li>
   <li>Game kick-off generally at 6:30pm (refer to team schedule). Game length: 2 x 45 minute halves.</li>
   <li>Eight players per side (8v8) with a designated keeper. Size 5 ball.</li>
@@ -488,11 +491,12 @@ https://app.teamlinkt.com/register/find/oilfieldsportsassociation2
     </div>
 
     <div class="rightMenu">
-  <h3 class="rightMenuHeading"><a href="contact-info.html">Contact Information</a></h3>
-  <h3 class="rightMenuHeading"><a href="financial-assisatance.html">Financial Assistance</a></h3>
-  <h3 class="rightMenuHeading"><a href="policies-and-bylaws.html">Policies and Bylaws</a></h3>
+    <h3 class="rightMenuHeading"><a href="contact.html">Contact Information</a></h3>
+    <h3 class="rightMenuHeading"><a href="financial.html">Financial Assistance</a></h3>
+    <h3 class="rightMenuHeading"><a href="policies.html">Policies and Bylaws</a></h3>
 
 </div>
+
     <div class="fb-page" 
 data-tabs="timeline,events,messages"
 data-href="https://www.facebook.com/groups/1996012543979856"

@@ -1,18 +1,24 @@
 - name: Hockey
   link: /hockey.html
   about: /hockey.html
-  schedule: /hockey/schedule.html
-  contact: 'mailto: oilfieldsphantoms@gmail.com'
+  schedule: /hockey_schedule.html
+  contact: oilfieldsphantoms@gmail.com
+  contactName: Shannon
   register: https://app.teamlinkt.com/register/find/oilfieldsportsassociation2
+  emoji: 🏒
 - name: Soccer
   link: /soccer.html
   about: /soccer.html
-  schedule: /soccer/schedule.html
-  contact: 'mailto: oilfieldsoccer@gmail.com'
+  schedule: /soccer_schedule.html
+  contact: oilfieldsoccer@gmail.com
+  contactName: Will
   register: https://app.teamlinkt.com/register/find/oilfieldsportsassociation2
+  emoji: ⚽️
 - name: Baseball
   link: /baseball.html
   about: /baseball.html
-  schedule: /baseball/schedule.html
-  contact: 'mailto: oilfieldbaseball@gmail.com'
+  schedule: /baseball_schedule.html
+  contact: oilfieldbaseball@gmail.com
+  contactName: Bryce
   register: https://app.teamlinkt.com/register/find/oilfieldsportsassociation2
+  emoji: ⚾️

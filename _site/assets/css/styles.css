@@ -1,5 +1,9 @@
-.current {
-  color: green;
+:root {
+  --backgroundColour: #232323;
+  --textColour: #ddd;
+  --accentColour: #FC7223;
+  --highlightColour: #ddd;
+  --dropdownBackgroundColour: #444444;
 }
 
 * {
@@ -7,11 +11,11 @@
   padding: 0;
   margin: 0;
   font-family: Verdana;
-  color: #ddd;
+  color: var(--textColour);
 }
 
 html {
-  background-color: #232323;
+  background-color: var(--backgroundColour);
   max-width: 1300px;
   /* REMOVE IF NOTHING GOES WRONG: margin: 0 auto; */
 }
@@ -30,7 +34,7 @@ h3 {
 }
 
 /*h3:hover {
-  background-color: #ddd;
+  background-color: var(--highlightColour);
 }*/
 /* THE LOGO AREA AT THE TOP */
 .banner {
@@ -38,20 +42,21 @@ h3 {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1em;
 }
 
 .leftMenu {
   float: left;
   width: 25%;
   text-align: right;
-  color: #FC7223;
+  color: var(--accentColour);
   line-height: 1.8;
   font-weight: bold;
   font-size: 30px;
 }
 
 .leftMenuHeading a {
-  color: #FC7223;
+  color: var(--accentColour);
   /* TO MAKE THE BACKGROUND HIGHLIGHT COVER ENOUGH AREA */
   padding-left: 5px;
   padding-right: 5px;
@@ -68,18 +73,18 @@ h3 {
   display: block;
   line-height: 1.2;
   font-size: 25px;
-  color: white;
+  color: var(--highlightColour);
 }
 
 .leftMenuCurrentSport a {
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 3px;
-  color: white;
+  color: var(--highlightColour);
 }
 
 .leftMenuDropdown a {
-  color: white;
+  color: var(--highlightColour);
 }
 
 .leftMenuHeading:hover > .leftMenuDropdown, .active {
@@ -87,16 +92,16 @@ h3 {
 }
 
 .leftMenuList li:hover > a {
-  background-color: #ddd;
-  color: black;
+  background-color: var(--highlightColour);
+  color: var(--backgroundColour);
 }
 
 .content {
-  color: #f1f1f1;
+  color: var(--textColour);
   float: left;
   width: 50%;
   line-height: 1.4;
-  padding: 23px;
+  padding: 0.4rem 23px;
 }
 
 .content p {
@@ -106,6 +111,14 @@ h3 {
 
 .content h2 {
   margin-bottom: 0.5em;
+}
+
+.content p ~ h2 {
+  margin-top: 1.5em;
+}
+
+.content:first-child {
+  margin-top: 0em;
 }
 
 .contentLeft {
@@ -131,7 +144,7 @@ h3 {
 }
 
 .rightMenu {
-  background-color: #FC7223;
+  background-color: var(--accentColour);
   float: left;
   width: 25%;
   padding: 10px 15px;
@@ -150,7 +163,7 @@ h3 {
 }
 
 .rightMenuHeading:hover {
-  background-color: #ddd;
+  background-color: var(--highlightColour);
 }
 
 input[type=checkbox] {
@@ -167,18 +180,17 @@ input[type=checkbox] {
   font-family: sans-serif;
   font-weight: bold;
   font-size: 18pt;
-  text-transform: uppercase;
   text-align: center;
   padding: 1rem;
   color: black;
-  background: #FC7223;
+  background: var(--accentColour);
   cursor: pointer;
   border-radius: 0px;
   transition: all 0.25s ease-out;
 }
 
 .lbl-toggle:hover {
-  color: #FFF;
+  color: var(--highlightColour);
 }
 
 .lbl-toggle::before {
@@ -215,7 +227,7 @@ input[type=checkbox] {
 .collapsible-content .content-inner {
   color: white;
   font-size: 10pt;
-  background: #444444;
+  background: var(--dropdownBackgroundColour);
   border-bottom: 1px solid #000000;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
@@ -246,7 +258,7 @@ input[type=checkbox] {
 .contentInnerButton {
   margin: auto;
   width: 80%;
-  background-color: #FC7223;
+  background-color: var(--accentColour);
   text-align: center;
   color: black;
   text-transform: capitalize;
@@ -256,7 +268,7 @@ input[type=checkbox] {
 }
 
 .contentInnerButton:hover {
-  background-color: #ddd;
+  background-color: var(--highlightColour);
 }
 
 @media only screen and (max-width: 800px) {
@@ -279,8 +291,8 @@ input[type=checkbox] {
 }
 /* MAKES THE COLOR CHANGE AFFECT THE PARENT AS WELL
 .leftMenu li:hover > a {
-  background-color: #ddd;
-  color: black;
+  background-color: var(--highlightColour);
+  color: var(--backgroundColour);
 }*/
 
 /*# sourceMappingURL=styles.css.map */

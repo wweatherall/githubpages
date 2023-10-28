@@ -2,15 +2,15 @@
 
     <ul class="leftMenuList">
         {% for item in site.data.navigation %}
-        <li class="leftMenuHeading"><a href="{{site.baseurl}}{{ item.link }}" {% if page.url==item.link %}class="current"
-                {% endif %}>{{ item.name
-                }}</a>
-        	<ul class="leftMenuDropdown">
-        		<li><a href="{{site.baseurl}}{{ item.about }}">About</a></li>
-        		<li><a href="{{site.baseurl}}{{ item.schedule }}">Schedule</a></li>
-        		<li><a href="{{ item.register}}">Register</a></li>
-        		<li><a href="{{ item.contact }}">Contact</a></li>
-        	</ul>        
+        <li class="leftMenuHeading"><a href="{{site.baseurl}}{{ item.link }}" {% if page.url==item.link
+                %}class="current" {% endif %}>{{ item.name
+                }} {{ item.emoji }} </a>
+            <ul class="leftMenuDropdown">
+                <li><a href="{{site.baseurl}}{{ item.about }}">About</a></li>
+                <li><a href="{{site.baseurl}}{{ item.schedule }}">Schedule</a></li>
+                <li><a href="{{ item.register}}">Register</a></li>
+                <li><a href="{{ item.contact }}">Contact</a></li>
+            </ul>
         </li>
         {% endfor %}
     </ul>

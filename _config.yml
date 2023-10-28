@@ -2,26 +2,12 @@ baseurl: "/githubpages"
 
 
 collections:
-  authors:
-    output: true
   soccer:
-    output: true
+    output: false
+  baseball:
+    output: false
 
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: "{{ site.baseurl }}"
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
   - scope:
       path: ""
     values:

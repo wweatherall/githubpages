@@ -4,23 +4,19 @@
 <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl}}/assets/css/styles.css">
+    <link rel="stylesheet" href="{{- site.baseurl -}}/assets/css/styles.css">
     {% feed_meta %}
 
 </head>
 
 <body>
 
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v18.0"
-        nonce="gzAM2PPz"></script>
-
-
     <div class="banner">
-        <a href="index.html">
+        <a href="{{- site.baseurl -}}/index.html">
             <picture>
-                <source srcset="assets/images/phantoms600.png" media="(min-width: 400px)"><img
-                    src="assets/images/phantoms@0.25x.png" alt="phantoms logo" width="600" class="banner">
+                <source srcset="{{- site.baseurl -}}/assets/images/phantoms600.png" media="(min-width: 400px)"><img
+                    src="{{- site.baseurl -}}/assets/images/phantoms@0.25x.png" alt="phantoms logo" width="600"
+                    class="banner">
             </picture>
         </a>
     </div>

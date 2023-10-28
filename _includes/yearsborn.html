@@ -1,7 +1,9 @@
 <!---This is the automatic age bracket function. It pulls the number from the document for each age from the top of it called maxage: 8 (or whatever age). If you don't edit the parts in the script tags or the {{}} it won't break the script--->
-<em>U{{-agegroup.maxage}} is for players born in
-{% assign agerange = agegroup.maxage | minus: agegroup.minage %} 
-{% if agerange != 1 %}
-and between 
-{% endif %}
-<script>document.write(new Date().getFullYear()-{{-agegroup.maxage}});</script> and <script>document.write(new Date().getFullYear()-{{-agegroup.minage}});</script>.</em>
+<em>For players born in
+    {% assign agerange = agegroup.maxage | minus: agegroup.minage %}
+    {% if agerange != 1 %}
+    and between
+    {% endif %}
+    <script>document.write(new Date().getFullYear() - {{- agegroup.maxage}});</script> and
+    <script>document.write(new Date().getFullYear() - {{- agegroup.minage}});</script>.
+</em>
