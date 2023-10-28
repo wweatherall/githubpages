@@ -1,5 +1,6 @@
 ---
 layout: default
+title: baseball
 ---
 
 <center><h2>About</h2></center>

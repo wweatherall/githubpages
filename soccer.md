@@ -1,5 +1,6 @@
 ---
 layout: default
+title: soccer
 ---
 
 <center><h2>About</h2></center>
