@@ -20,6 +20,10 @@ html {
   /* REMOVE IF NOTHING GOES WRONG: margin: 0 auto; */
 }
 
+h1, h2, h3, h4, h5 {
+  text-spacing: -0.8px;
+}
+
 a {
   text-decoration: none;
   font-weight: bold;
@@ -149,8 +153,12 @@ h3 {
   float: left;
   width: 25%;
   padding: 10px 15px;
-  font-size: 16px;
   margin-top: 7px;
+}
+
+.rightMenu h2 {
+  font-size: 5px;
+  letter-spacing: -3px;
 }
 
 .rightMenu a {
