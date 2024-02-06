@@ -1,6 +1,2 @@
----
-layout: default
----
-
 
 Coming Soon
