@@ -22,3 +22,11 @@
   contactName: Bryce
   register: https://app.teamlinkt.com/register/find/oilfieldsportsassociation2
   emoji: ⚾️
+- name: Basketball
+  link: /basketball.html
+  about: /basketball.html
+  schedule: /basketball_schedule.html
+  contact: oilfieldsbasketball@gmail.com
+  contactName: Dale
+  register: https://app.teamlinkt.com/register/find/oilfieldsportsassociation2
+  emoji: 🏀

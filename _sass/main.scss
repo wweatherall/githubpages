@@ -21,7 +21,7 @@ html {
   background-color: var(--backgroundColour);
   max-width: 1300px;
 
-  /* REMOVE IF NOTHING GOES WRONG: margin: 0 auto; */
+margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -39,6 +39,11 @@ a {
   list-style: none;
 }
 
+h1 {
+text-align: center;
+text-transform: uppercase;
+color: var(--accentColour);
+}
 
 h3 {
   padding: 3;
@@ -54,6 +59,7 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1em;
+  padding-top: 2em;
 }
 
 .leftMenu {
@@ -63,7 +69,7 @@ h3 {
   color: var(--accentColour);
   line-height: 1.8;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .leftMenuHeading a {
@@ -235,7 +241,7 @@ input[type='checkbox'] { display: none; }
 }
 
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:840px) {
 /* For tablets: */
 .leftMenu, .content, .rightMenu {
   width: 100%;
