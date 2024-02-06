@@ -251,6 +251,12 @@ input[type='checkbox'] { display: none; }
   text-align: center;
 }
 
+.content {
+  padding-top: 2em;
+  border-top-style: dotted;
+  margin-top: 1em;
+}
+
 }
 
 @media only screen and (max-width:500px) {
