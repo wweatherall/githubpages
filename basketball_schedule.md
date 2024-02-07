@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Basketball Schedule
 ---
 
 Oilfields Regional Arena
