@@ -31,9 +31,17 @@ Wednesdays from 6:15 pm – 7:15 pm
 ## Set Up:
 
 Age groups are as follows:
-Group 1 (ages 6-7) - For players born in 201 and 2017
-Group 2 (ages 8-9) - For players born in 2016 and 2015
-Group 3 (ages 10-12) -  For players born in 2014,2013 and 2012
+Group 1 (ages 6-7) - For players born in
+<script>document.write(new Date().getFullYear() - 7);</script> and
+<script>document.write(new Date().getFullYear() - 6);</script>
+
+Group 2 (ages 8-9) - For players born in
+<script>document.write(new Date().getFullYear() - 9);</script> and
+<script>document.write(new Date().getFullYear() - 8);</script>
+
+Group 3 (ages 10-12) -  For players born in
+<script>document.write(new Date().getFullYear() - 12);</script> to
+<script>document.write(new Date().getFullYear() - 10);</script>
 
 Practice is being held in the Oilfields Regional Arena after the ice has been removed
 All groups practice at the same time.
