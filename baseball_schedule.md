@@ -9,7 +9,7 @@ title: Baseball Schedule
 
 <p>{{ agegroup.time }}</p>
 
-{% if agegroup.lacation %}
+{% if agegroup.location %}
 
 <p>Home games and practices at {{ agegroup.location }}</p>
 
