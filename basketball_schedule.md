@@ -11,8 +11,8 @@ Oilfields Regional Arena
 
 ## Dates & Times:
 
-Dates & Times:
-
-Wednesdays from 6:15 pm – 7:15 pm
-
 2024 Session: April 3rd – May 8th
+
+- U7: Three groups from 6:00 to 6:50 pm
+- U9: Three groups from 7:00 to 7:50 pm
+- U13: Three groups from 8:00 to 8:50 pm
